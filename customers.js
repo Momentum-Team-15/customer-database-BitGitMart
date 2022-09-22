@@ -51,6 +51,7 @@ const customers = [
       first: 'krin',
       last: 'oliver'
     },
+    
     location: {
       street: {
         number: 9294,

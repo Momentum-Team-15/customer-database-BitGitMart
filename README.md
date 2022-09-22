@@ -2,7 +2,7 @@
 
 ## Directions
 
-In this assignment, you will build a customer directory using DOM manipulation with JavaScript. You will get the customer data via `customers.js`, an included JavaScript file, and format dates via a third-party library, [Moment.js](http://momentjs.com/). You can also use other third-party libraries if you wish.
+In this assignment, you will build a customer directory using DOM manipulation with JavaScript. You will get the customer data via `customers.js`, an included JavaScript file, and format dates via a third-party library, [Moment.js](http://momentjs.com/). You can also use other third-party libraries if you wish. 
 
 The customers were generated using [RandomUser.me](https://randomuser.me/), and so they contain a lot of data. For our purposes, you will need their name, address, phone numbers, thumbnail, birthdate, and the date they became a customer, which is stored as `registered.date` in the data.
 

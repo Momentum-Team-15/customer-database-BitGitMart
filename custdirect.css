@@ -1,0 +1,22 @@
+h1 {
+    text-align: center; 
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+.customer {
+    border: 1px solid black; 
+    width: 20vw; 
+    height: 25vw; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    flex-direction: column; 
+}
+
+#customerContain {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
