@@ -6,12 +6,8 @@ function buildDirectory(customerArray){
         customerDiv.classList.add("customer"); 
     
 
-        function capitalizeFirstLetter(string) {
-            const capitalized = str.charAt(0).toUpperCase() + str.slice(1); 
-        } 
-
         let name = document.createElement("p"); 
-        name.innerText = `${capitalizeFirstLetter(customer.name.title)} ${customer.name.first} ${customer.name.last}`;
+        name.innerText = `${customer.name.title} ${customer.name.first} ${customer.name.last}`;
 
         let location = document.createElement("p"); 
         location.innerText = `${customer.location.city} ${customer.location.state} ${customer.location.country} ${customer.location.postcode}`; 
